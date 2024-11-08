@@ -1,0 +1,10 @@
+@import './variables', './main', './adaptive';
+
+.sidebar {
+    width: 25%;
+    background-color: $aside-background-color;
+
+    padding: 20px 30px;
+
+}
+

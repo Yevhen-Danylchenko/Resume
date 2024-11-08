@@ -1,0 +1,26 @@
+@import './variables', './main', './sidebar';
+
+@media (max-width: 768px){
+    .main {
+        width: 100%;
+        
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .title-content {
+        width: 750px;
+    }
+}
+
+@media (max-width: 420px) {
+    .main {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .title-content {
+        width: 400px;
+    }
+}
