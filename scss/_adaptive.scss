@@ -1,26 +1,43 @@
-@import './variables', './main', './sidebar';
-
-@media (max-width: 768px){
-    .main {
+@media (min-width: 1000px) {
+    .main, aside {
         width: 100%;
-        
-        justify-content: center;
-        flex-direction: column-reverse;
+
+        display: flex;
+
+        flex-direction: row;
+        align-items: flex-start;
     }
 
     .title-content {
-        width: 750px;
+        width: 100%;
     }
 }
 
-@media (max-width: 420px) {
-    .main {
-        width: 100%;
-        justify-content: center;
+@media (min-width: 767px){
+    .main, aside {
+        width: 80%; 
+
+            
+               
         flex-direction: column-reverse;
+        align-items: flex-start;
+
     }
 
     .title-content {
-        width: 400px;
+        width: 80%;
+    }
+}
+
+@media (min-width: 599px) {
+    .main, aside {
+        width: 80%;       
+        
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .title-content {
+        width: 80%;
     }
 }
